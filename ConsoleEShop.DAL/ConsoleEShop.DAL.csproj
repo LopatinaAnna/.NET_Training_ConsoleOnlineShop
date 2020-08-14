@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\anlop\source\repos\ConsoleEShopMultilayered\ConsoleEShop.DAL\ConsoleEShop.DAL.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\anlop\source\repos\ConsoleEShopMultilayered\ConsoleEShop.PL\ConsoleEShop.PL.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleEShop.DAL\ConsoleEShop.DAL.csproj" />
+    <ProjectReference Include="..\ConsoleEShop.BLL\ConsoleEShop.BLL.csproj" />
+  </ItemGroup>
+
+</Project>
